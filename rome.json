@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/rome/configuration_schema.json",
+  "formatter": {
+    "lineWidth": 120,
+    "enabled": true,
+    "ignore": []
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "asNeeded"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "ignore": [],
+    "rules": {
+      "recommended": true
+    }
+  }
+}
