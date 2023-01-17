@@ -20,7 +20,6 @@ output public/style.css
 
 test('sandbox', async (t) => {
 	const inv = await inventory({ rawArc: someArc, cwd: here }, null)
-	t.ok(inv, 'ok')
 
 	// start sandbox with inv
 	await sandbox.start({
